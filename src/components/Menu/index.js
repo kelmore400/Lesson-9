@@ -14,6 +14,9 @@ export const Menu = props => {
             <li>
                 <NavLink activeClassName={props.activeLinkClassName} exact to="name">Form name</NavLink>
             </li>
+            <li>
+                <NavLink activeClassName={props.activeLinkClassName} exact to="homework">Homework</NavLink>
+            </li>
         </ul>
     )
 }

@@ -27,6 +27,9 @@ export class SupportForm extends React.Component {
   render(){
     // console.log('props', this.props);
     // console.log('type', typeof this.props.match.params.number);
+    if(this.state.userName === "Путин Хуйло"){
+      throw new Error("error on submit form");
+    }
     return (
       <div className={styles.container}>
         <h2>Please write your request</h2>
