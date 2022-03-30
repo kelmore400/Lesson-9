@@ -1,0 +1,43 @@
+.menuContainer {
+    background-color: #282c34;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: flex;
+    min-height: 100%;
+    color: white;
+    height: 100vh;
+}
+
+.sidebar {
+    min-height: 100%;
+    border-right: 1px solid #fff;
+    padding-right: 26px;
+}
+
+.menuContainer {
+    a {
+        color: #fff;
+        text-decoration: none;
+        border: 1px solid skyblue;
+        margin-bottom: 10px;
+        padding: 7px;
+        display: block;
+        transition: background-color 0.3s;
+        &:hover {
+            background-color: skyblue;
+        }
+    }
+}
+
+.activeLink {
+    background-color: rgb(79, 178, 218);
+}
+
+.mainLayout {
+    display: flex;
+    min-height: 100%;
+    padding: 20px;
+    flex-grow: 1;
+    align-items: flex-start;
+    justify-content: center;
+}
